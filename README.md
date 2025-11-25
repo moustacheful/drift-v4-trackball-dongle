@@ -48,7 +48,66 @@ The V4 supports multiple build configurations:
 
 ---
 
-More details will be released soon..  
+## 🧭 Trackball Behavior & Controls
+
+### ✅ How the Trackball Behaves
+
+#### 🛑 While You're Typing
+- The **trackball is disabled while you type**.
+- It automatically re-enables **0.5 seconds after the keyboard stops receiving key presses**.
+
+#### 🖱️ While You’re Using the Trackball
+- When you move the trackball, the **right half switches to mouse-only mode**.
+- This means you **can’t type** on the right side until:
+  - You stop moving the trackball for **~1.2 seconds**, **then** the keyboard returns to normal typing mode.
+- This prevents accidental mouse activation while typing.
+
+---
+
+### 🔒 Permanent Mouse Mode (Optional)
+If you want the right half to stay in mouse mode:
+
+- **Hold `Raise` + press `6`**  
+  → Mouse mode stays locked on.
+- To exit, **Hold `Raise` + press `6` again**  
+  → Returns to normal keyboard operation.
+
+---
+
+### 🎯 Mouse Controls (When Mouse Mode Is Active)
+
+| Action | Key |
+|--------|------|
+| **Left Click** | `K` |
+| **Right Click** | `L` |
+| **Scroll** | Hold `O` + move the trackball |
+
+---
+
+### 🎥 Extra 3D Navigation Functions (Optional)
+For users working in **Blender, Fusion 360, CAD**, and other 3D programs, Drift V4 includes two special macros:
+
+#### 🌀 Orbit
+- **Key:** `.` (period)
+- **Function:** Holds **Shift + Middle Click** while the trackball moves  
+- **Usage:** Rotate/orbit around models and objects
+
+#### 📐 Pan
+- **Key:** `,` (comma)
+- **Function:** Holds **Middle Click** while the trackball moves  
+- **Usage:** Pan the view horizontally/vertically in 3D space  
+
+---
+
+### ⚙️ Customizing Trackball Behavior
+If you want to customize how the trackball or mouse keys work, you’ll need to update your firmware:
+
+- Edit your fork on GitHub  
+- Recompile the firmware  
+- Flash **all three devices**: left half, right half, and dongle  
+
+---
+
 
 
 
