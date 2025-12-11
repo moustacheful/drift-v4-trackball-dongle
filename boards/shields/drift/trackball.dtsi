@@ -35,7 +35,7 @@
 
     trackball: trackball@0 {
         status = "okay";
-        compatible = "pixart,pmw3610";
+        compatible = "pixart,pmw3610_alt";
         reg = <0>;                                                // first SPI slave device
         spi-max-frequency = <2000000>;                            // 2 MHz max SPI frequency
         irq-gpios = <&gpio0 22 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; // interrupt pin
