@@ -4,7 +4,7 @@ by **Timception**
 Welcome to the **Drift Keyboard V4 — Trackball Edition**.  
 This version keeps the familiar shape of previous Drift models while introducing some interesting additional features:
 
-<center><img src="img/DriftV4.jpg" width="500"></center><br/><br/>
+<p align="center"><img src="img/DriftV4.jpg" width="500"></p><br/><br/>  
 
 ---
 
@@ -132,6 +132,7 @@ This project makes use of code and ideas from the following repositories:
 - [caksoylar](https://github.com/caksoylar/keymap-drawer) (MIT License) - Keymap Drawer  
 
 All third-party code remains under their original licenses.  
+
 
 
 
