@@ -12,7 +12,7 @@ This version keeps the familiar shape of previous Drift models while introducing
 
 - ZMK Studio enabled, and can also be keymapped using [Nick Coutsos' Editor](https://github.com/nickcoutsos/keymap-editor)  
 - Connects through a **dongle** for improved wireless functionality  
-- Adds a **newly integrated trackball** for smoother control  
+- Adds a **newly integrated trackball** - One less device to carry. Enjoy full cursor control without the need for a separate mouse.  
 - Can install sockets for **choc v1/v2 switches**
 
 ---
@@ -20,10 +20,10 @@ This version keeps the familiar shape of previous Drift models while introducing
 ## 🔢 Key Count & Layout
 
 - **63 keys** total  
-- Only **5 keys fewer** than Drift V2/V3 (Originally 68 keys)  
+- Only **5 keys fewer** than the 68-key Drift V2/V3  
 - Removed the **outermost columns**, but the layout still provides everything needed to easily migrate from conventioal 60%-65% keyboards.  
 - The **encoder** is now placed on the **thumb cluster**  
-- The **right half** features a **swappable trackball**, allowing you to try different materials or textures.
+- The **right half** features a **swappable trackball**, allowing you to try different materials or replace the trackball module.
 
 If you’ve used the Drift V2 or V3 before, you’ll adapt to this version very quickly.  
 The trackball has been smoothly integrated and is not hard to get used to.  
@@ -35,8 +35,8 @@ The trackball has been smoothly integrated and is not hard to get used to.
 This model took extensive time and refinement to bring together, and I can easily call it my Masterpiece.
 
 - The **OLEDs were removed** to avoid signal interference with the MCU underneath  
-- **4-pin OLED sockets remain**, so users can reinstall displays if desired  
-- Designed with **maximum modding potential** in mind
+- **4-pin OLED sockets remain**, so users can reinstall displays and make firmware changes if desired  
+- Designed with **maximum modding potential** in mind, and all the case parts can be 3D-Printed so even more colors
 
 ---
 
@@ -62,7 +62,7 @@ The V4 supports multiple build configurations:
 - When you move the trackball, the **right half switches to mouse-only mode**.
 - This means you **can’t type** on the right side until:
   - You stop moving the trackball for **~1.2 seconds**, **then** the keyboard returns to normal typing mode.
-- This prevents accidental mouse activation while typing.
+- This function prevents accidental mouse activation while typing and vice versa.
 
 ---
 
@@ -87,7 +87,7 @@ If you want the right half to stay in mouse mode:
 ---
 
 ### 🎥 Extra 3D Navigation Functions (Optional)
-For users working in **3D programs**, Drift V4 includes two special macros:
+For users working in **3D programs**, Drift V4 includes two special macros while the mouse layer is active:
 
 #### 🌀 Orbit
 - **Key:** `.` (period)
@@ -132,6 +132,7 @@ This project makes use of code and ideas from the following repositories:
 - [caksoylar](https://github.com/caksoylar/keymap-drawer) (MIT License) - Keymap Drawer  
 
 All third-party code remains under their original licenses.  
+
 
 
 
