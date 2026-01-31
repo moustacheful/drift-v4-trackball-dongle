@@ -112,7 +112,7 @@ If you want to customize how the trackball or mouse keys work, you’ll need to 
 
 
 - This keyboard was developed alongside Drift Keyboard V3, though it was not released at the same time.  
-- Its design is original, and is not derived from any existing keyboard other than the original Drift Keyboard.  
+- Drift Keyboard V4's design is derived from the original Drift Keyboard.  
 
 You can see more actual builds [-=HERE=-](https://www.instagram.com/majin.keyboards)  
 
@@ -132,6 +132,7 @@ This project makes use of code and ideas from the following repositories:
 - [caksoylar](https://github.com/caksoylar/keymap-drawer) (MIT License) - Keymap Drawer  
 
 All third-party code remains under their original licenses.  
+
 
 
 
